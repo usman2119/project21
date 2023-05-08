@@ -1,0 +1,23 @@
+.home-feature{
+    min-height: 100%;
+}
+.feature-products{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    column-gap: 20px;
+    margin: 40px;
+    margin-left: 200px;
+}
+.intro-data{
+    text-align: center;
+    font-weight: 700;
+    font-size: 29px;
+
+}
+.common-heading{
+    line-height: 60px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 29px;
+}

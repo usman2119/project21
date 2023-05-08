@@ -1,0 +1,93 @@
+.single-format{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin-top: 15vh;
+    margin-left: 5vh;
+}
+.images{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.main-image{
+    margin-top: 120px;
+    margin-bottom: 140px;
+    margin-right: 30px;
+    margin-left: 20px;
+}
+.single-page-details{
+    border: 1px solid rgb(107, 107, 107);
+    margin-right: 20px;
+    border-radius: 10px;
+    background-color: #063247;
+    color: white;
+    
+}
+.single-page-details >.price{
+    font-weight: 500;
+    font-size: 18px;
+    margin-left: 20px;
+}
+.single-page-details > p{
+    line-height: 50px;
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 20px;
+    text-transform: capitalize;
+}
+.decrease {
+    background-color: white;
+    border: 0px solid white;
+    margin-right: 35px;
+}
+.setincrease {
+    background-color: white;
+    border: 0px solid white;
+}
+.stars{
+    margin-left: 40px;
+    margin-top: 10px;
+    display: flex;
+    font-weight: 500;
+    font-size: 18px;
+    flex-direction: row;
+}
+.addtocart{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+.amount{
+    text-align: center;
+}
+p.description{
+    font-size: 14px;
+}
+.addtocart{
+    color: white;
+    background-color: #063247;
+    border: 0px solid #063247;
+}
+.toggle-button > button{
+    color: white;
+    background-color: #063247;
+    border: 0px solid #063247 ;
+}
+.add-cart{
+    border: 0px solid #063247;
+    float: right;
+    color:#063247;
+    margin-top: 100px;
+    margin-right: 30px;
+}
+span.amount{
+    text-decoration: none;
+}
+
+.btn{
+    color: white;
+    background-color: #063247;
+    border: 0px solid #063247;
+}
+
+button.setdecrease{
+    margin-right: 30px;
+}
